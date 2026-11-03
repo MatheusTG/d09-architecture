@@ -1,0 +1,44 @@
+# ===== Logisim Evolution =====
+# Backups/arquivos temporários do editor
+*.bak
+*.circ~
+*.circ.bak
+
+# Saída da exportação para FPGA (HDL gerado, scripts, sandbox)
+sandbox/
+logisim_evolution_workspace/
+**/vhdl/
+**/verilog/
+**/xdc/
+**/ucf/
+**/scripts/
+
+# .jar do Logisim, caso alguém baixe dentro do repo
+logisim-evolution*.jar
+
+# ===== Programas RISC-V (montador/toolchain) =====
+build/
+*.o
+*.elf
+*.bin
+*.dump
+*.map
+# Imagens de memória geradas pelo montador (ROM/RAM)
+# -> só ignore se forem geradas a partir de um .s versionado
+# *.hex
+# *.mem
+
+# ===== Java (o Logisim roda na JVM) =====
+*.class
+hs_err_pid*.log
+
+# ===== Sistema operacional =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editores/IDEs =====
+.vscode/
+.idea/
+*.swp
+*~

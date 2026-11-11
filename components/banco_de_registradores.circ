@@ -303,131 +303,131 @@
       <a name="appearance" val="logisim_evolution"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="9" loc="(675,1056)" name="Text">
+    <comp lib="9" loc="(675,1055)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x8"/>
     </comp>
-    <comp lib="9" loc="(675,1186)" name="Text">
+    <comp lib="9" loc="(675,1185)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x9"/>
     </comp>
-    <comp lib="9" loc="(675,1316)" name="Text">
+    <comp lib="9" loc="(675,1315)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x10"/>
     </comp>
-    <comp lib="9" loc="(675,1446)" name="Text">
+    <comp lib="9" loc="(675,1445)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x11"/>
     </comp>
-    <comp lib="9" loc="(675,146)" name="Text">
+    <comp lib="9" loc="(675,145)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x1"/>
     </comp>
-    <comp lib="9" loc="(675,1571)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="x12"/>
-    </comp>
-    <comp lib="9" loc="(675,16)" name="Text">
+    <comp lib="9" loc="(675,15)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x0"/>
     </comp>
-    <comp lib="9" loc="(675,1701)" name="Text">
+    <comp lib="9" loc="(675,1570)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="x12"/>
+    </comp>
+    <comp lib="9" loc="(675,1700)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x13"/>
     </comp>
-    <comp lib="9" loc="(675,1831)" name="Text">
+    <comp lib="9" loc="(675,1830)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x14"/>
     </comp>
-    <comp lib="9" loc="(675,1961)" name="Text">
+    <comp lib="9" loc="(675,1960)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x15"/>
     </comp>
-    <comp lib="9" loc="(675,2096)" name="Text">
+    <comp lib="9" loc="(675,2095)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x16"/>
     </comp>
-    <comp lib="9" loc="(675,2226)" name="Text">
+    <comp lib="9" loc="(675,2225)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x17"/>
     </comp>
-    <comp lib="9" loc="(675,2356)" name="Text">
+    <comp lib="9" loc="(675,2355)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x18"/>
     </comp>
-    <comp lib="9" loc="(675,2486)" name="Text">
+    <comp lib="9" loc="(675,2485)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x19"/>
     </comp>
-    <comp lib="9" loc="(675,2611)" name="Text">
+    <comp lib="9" loc="(675,2610)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x20"/>
     </comp>
-    <comp lib="9" loc="(675,2741)" name="Text">
+    <comp lib="9" loc="(675,2740)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x21"/>
     </comp>
-    <comp lib="9" loc="(675,276)" name="Text">
+    <comp lib="9" loc="(675,275)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x2"/>
     </comp>
-    <comp lib="9" loc="(675,2871)" name="Text">
+    <comp lib="9" loc="(675,2870)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x22"/>
     </comp>
-    <comp lib="9" loc="(675,3001)" name="Text">
+    <comp lib="9" loc="(675,3000)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x23"/>
     </comp>
-    <comp lib="9" loc="(675,3131)" name="Text">
+    <comp lib="9" loc="(675,3130)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x24"/>
     </comp>
-    <comp lib="9" loc="(675,3261)" name="Text">
+    <comp lib="9" loc="(675,3260)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x25"/>
     </comp>
-    <comp lib="9" loc="(675,3391)" name="Text">
+    <comp lib="9" loc="(675,3390)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x26"/>
     </comp>
-    <comp lib="9" loc="(675,3521)" name="Text">
+    <comp lib="9" loc="(675,3520)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x27"/>
     </comp>
-    <comp lib="9" loc="(675,3651)" name="Text">
+    <comp lib="9" loc="(675,3650)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x28"/>
     </comp>
-    <comp lib="9" loc="(675,3781)" name="Text">
+    <comp lib="9" loc="(675,3780)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x29"/>
     </comp>
-    <comp lib="9" loc="(675,3911)" name="Text">
+    <comp lib="9" loc="(675,3910)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x30"/>
     </comp>
-    <comp lib="9" loc="(675,4041)" name="Text">
+    <comp lib="9" loc="(675,4040)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x31"/>
     </comp>
-    <comp lib="9" loc="(675,406)" name="Text">
+    <comp lib="9" loc="(675,405)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x3"/>
     </comp>
-    <comp lib="9" loc="(675,536)" name="Text">
+    <comp lib="9" loc="(675,535)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x4"/>
     </comp>
-    <comp lib="9" loc="(675,666)" name="Text">
+    <comp lib="9" loc="(675,665)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x5"/>
     </comp>
-    <comp lib="9" loc="(675,796)" name="Text">
+    <comp lib="9" loc="(675,795)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x6"/>
     </comp>
-    <comp lib="9" loc="(675,926)" name="Text">
+    <comp lib="9" loc="(675,925)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="x7"/>
     </comp>

@@ -44,7 +44,9 @@
   <lib desc="#Input/Output-Extra" name="11"/>
   <lib desc="#Soc" name="12"/>
   <lib desc="file#components/ULA.circ" name="13"/>
-  <lib desc="file#components/banco_de_registradores.circ" name="14"/>
+  <lib desc="file#components/uc_Principal.circ" name="14"/>
+  <lib desc="file#components/Decodificadorr.circ" name="15"/>
+  <lib desc="file#components/banco_de_registradores.circ" name="16"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -61,6 +63,7 @@
     <tool name="Edit Tool"/>
     <tool name="Wiring Tool"/>
     <tool name="Text Tool"/>
+    <tool name="Image"/>
     <sep/>
     <tool name="Pin"/>
     <tool name="Pin">
@@ -79,9 +82,46 @@
     <tool name="Register"/>
   </toolbar>
   <circuit name="main">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="simulationFrequency" val="8.0"/>
+    <a name="simulationFrequency" val="32.0"/>
+    <comp lib="0" loc="(60,360)" name="Clock">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="13" loc="(530,260)" name="ULA"/>
+    <comp lib="14" loc="(280,130)" name="ucPrincipal"/>
+    <comp lib="15" loc="(160,240)" name="decodificador"/>
+    <comp lib="16" loc="(320,260)" name="bancoRegistradores"/>
+    <comp lib="2" loc="(460,290)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="32"/>
+    </comp>
+    <wire from="(110,240)" to="(140,240)"/>
+    <wire from="(190,210)" to="(210,210)"/>
+    <wire from="(190,230)" to="(290,230)"/>
+    <wire from="(190,250)" to="(290,250)"/>
+    <wire from="(190,270)" to="(290,270)"/>
+    <wire from="(190,290)" to="(220,290)"/>
+    <wire from="(190,310)" to="(400,310)"/>
+    <wire from="(210,130)" to="(210,210)"/>
+    <wire from="(210,130)" to="(260,130)"/>
+    <wire from="(220,290)" to="(220,320)"/>
+    <wire from="(220,320)" to="(520,320)"/>
+    <wire from="(290,90)" to="(440,90)"/>
+    <wire from="(300,100)" to="(360,100)"/>
+    <wire from="(310,300)" to="(310,360)"/>
+    <wire from="(330,300)" to="(360,300)"/>
+    <wire from="(350,240)" to="(500,240)"/>
+    <wire from="(350,280)" to="(430,280)"/>
+    <wire from="(360,100)" to="(360,300)"/>
+    <wire from="(400,300)" to="(400,310)"/>
+    <wire from="(400,300)" to="(430,300)"/>
+    <wire from="(440,90)" to="(440,270)"/>
+    <wire from="(460,290)" to="(510,290)"/>
+    <wire from="(500,220)" to="(500,240)"/>
+    <wire from="(500,220)" to="(510,220)"/>
+    <wire from="(520,300)" to="(520,320)"/>
+    <wire from="(60,360)" to="(310,360)"/>
   </circuit>
 </project>

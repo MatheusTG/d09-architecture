@@ -78,10 +78,20 @@
     <tool name="Register"/>
   </toolbar>
   <circuit name="ULA">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="ULA"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="32.0"/>
+    <appear>
+      <polyline fill="none" points="80,30 80,60 90,75 80,90 80,120" stroke="#000000"/>
+      <polyline fill="none" points="80,120 80,130 110,100 110,50 80,20 80,30" stroke="#000000"/>
+      <circ-anchor facing="east" x="100" y="80"/>
+      <circ-port dir="in" pin="160,110" x="80" y="110"/>
+      <circ-port dir="in" pin="370,390" x="90" y="120"/>
+      <circ-port dir="in" pin="60,110" x="80" y="40"/>
+      <circ-port dir="out" pin="390,310" x="110" y="70"/>
+      <circ-port dir="out" pin="400,340" x="110" y="90"/>
+    </appear>
     <comp lib="0" loc="(160,110)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="south"/>
